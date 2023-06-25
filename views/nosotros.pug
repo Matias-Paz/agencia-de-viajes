@@ -1,0 +1,32 @@
+extends ./layouts/index
+
+block contenido 
+    main.container.mt-5
+        .row
+            .col-md-5
+                img(src="img/nosotros.jpg", alt="imagen sobre nosotros", class="img-fluid")
+            .col-md-7
+                h1(class="text-center") #{pagina}
+                blockquote  En nuestra agencia de viajes, nos apasiona hacer realidad los sueños de nuestros clientes. Nos enorgullece ofrecer una amplia gama de destinos y experiencias que se adaptan a todos los gustos y presupuestos. Desde playas paradisíacas y ciudades vibrantes hasta aventuras en la naturaleza y recorridos culturales, tenemos algo especial para cada viajero.
+
+                p Nuestro equipo de expertos en viajes está comprometido en brindar un servicio excepcional y personalizado. Nos esforzamos por entender las necesidades y preferencias de cada cliente para diseñar itinerarios a medida que superen sus expectativas. Ya sea que desee relajarse en un lujoso resort, explorar destinos exóticos o sumergirse en la historia y la cultura de un lugar, estamos aquí para hacerlo realidad.
+
+                p Además de ofrecer paquetes de viaje completos, también podemos encargarnos de los detalles más pequeños, como reservas de vuelos, alojamiento, transporte terrestre y actividades adicionales.
+
+    .listado-iconos
+        .container.mt-5.py-5.text-center
+            .row
+                .col-md-4
+                    img(src="img/icono_seguridad.svg", alt="icono seguridad", class="img-fluid mb-4")
+                    h2.mb-4 Seguridad
+                    p La seguridad de nuestra agencia de viajes es primordial. Implementamos medidas exhaustivas para proteger la información de nuestros clientes y garantizar transacciones seguras. Tu tranquilidad es nuestra prioridad absoluta. 
+
+                .col-md-4
+                    img(src="img/icono_destinos.svg", alt="icono destinos", class="img-fluid mb-4")
+                    h2.mb-4 Mejores Destinos
+                    p Descubren destinos exóticos, playas paradisíacas y ciudades históricas. Cada boleto es una puerta hacia la emoción y el descubrimiento. Son el compañero confiable que crea experiencias inolvidables en cada travesía. 
+
+                .col-md-4
+                    img(src="img/icono_precios.svg", alt="icono precios", class="img-fluid mb-4")
+                    h2.mb-4 Mejores Precios
+                    p Descubre ofertas increíbles en nuestra agencia de viajes, donde el lujo y la aventura se unen. Ahorra dinero con nuestros precios competitivos en paquetes vacacionales y vuelos. ¡Viaja sin preocupaciones y disfruta al máximo sin vaciar tu bolsillo!
